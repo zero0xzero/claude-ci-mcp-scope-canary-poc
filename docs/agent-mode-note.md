@@ -1,0 +1,1 @@
+Agent mode scope test
