@@ -1,0 +1,1 @@
+# claude-ci-mcp-scope-canary-poc
