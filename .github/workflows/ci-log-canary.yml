@@ -1,0 +1,12 @@
+name: CI Log Canary
+
+on:
+  workflow_dispatch:
+
+jobs:
+  canary-target:
+    name: "CROSS_RUN_LOG_CANARY_DO_NOT_SECRET"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print canary
+        run: echo "CROSS_RUN_LOG_CANARY_DO_NOT_SECRET"
